@@ -42,7 +42,7 @@ console.log(value);
   
         {
           from_name: form.name,
-          to_name: "Iram",
+          to_name: "Shahnaaz",
           from_email: form.email,
           to_email: "iramm1159@gmail.com",
           message: form.message,
