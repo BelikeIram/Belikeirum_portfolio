@@ -24,7 +24,9 @@ import {
   jobit,
   tripguide,
   threejs,
-  NodeJS
+  NodeJS,
+  Wordpress,
+  PHP,
 } from "../assets";
 
 export const navLinks = [
@@ -44,19 +46,19 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Web Developer",
+    title: "React Developer",
     icon: web,
   },
   {
-    title: "React Native Developer",
+    title: "Wordpress Developer",
     icon: mobile,
   },
   {
-    title: "Backend Developer",
+    title: "Shopify Developer",
     icon: backend,
   },
   {
-    title: "Content Creator",
+    title: "PHP Developer",
     icon: creator,
   },
 ];
@@ -91,14 +93,6 @@ const technologies = [
     icon: tailwind,
   },
   {
-    name: "Node JS",
-    icon: nodejs,
-  },
-  {
-    name: "MongoDB",
-    icon: mongodb,
-  },
-  {
     name: "Three JS",
     icon: threejs,
   },
@@ -114,6 +108,14 @@ const technologies = [
     name: "docker",
     icon: docker,
   },
+  {
+    name:'PHP',
+    icon: PHP
+  },
+  {
+    name:'shopify',
+    icon: shopify
+  }
 ];
 
 const experiences = [
@@ -131,39 +133,39 @@ const experiences = [
     ],
   },
   {
-    title: "React Native Developer",
+    title: "PHP Full stack developer",
     company_name: "Yash Techs",
     icon: YashLogo,
     iconBg: "#E6DEDD",
     date: "Jan 2021 - Feb 2022",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
+      "Developing and maintaining web applications using Wordpress + PHP and other related technologies.",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
       "Implementing responsive design and ensuring cross-browser compatibility.",
       "Participating in code reviews and providing constructive feedback to other developers.",
     ],
   },
   {
-    title: "Web Developer",
-    company_name: "Adware",
+    title: "shopify Developer",
+    company_name: "Okoders",
     icon: shopify,
     iconBg: "#383E56",
     date: "Jan 2022 - Jan 2023",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
+      "Developing and maintaining web applications using Shopify + liquify.",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
       "Implementing responsive design and ensuring cross-browser compatibility.",
       "Participating in code reviews and providing constructive feedback to other developers.",
     ],
   },
   {
-    title: "Full stack Developer",
-    company_name: "Adware",
-    icon: NodeJS,
+    title: "Wordpress",
+    company_name: "Okoders",
+    icon:Wordpress,
     iconBg: "#E6DEDD",
     date: "Jan 2023 - Present",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
+      "Developing and maintaining web applications using Wordpress + PHP and other related technologies.",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
       "Implementing responsive design and ensuring cross-browser compatibility.",
       "Participating in code reviews and providing constructive feedback to other developers.",
@@ -174,7 +176,7 @@ const experiences = [
 const testimonials = [
   {
     testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Iram proved me wrong.",
+      "I thought it was impossible to make a website as beautiful as our product, but Shahnaaz proved me wrong.",
     name: "Sara Lee",
     designation: "CFO",
     company: "Acme Co",
@@ -182,7 +184,7 @@ const testimonials = [
   },
   {
     testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Iram does.",
+      "I've never met a web developer who truly cares about their clients' success like Shahnaaz does.",
     name: "Chris Brown",
     designation: "COO",
     company: "DEF Corp",
@@ -226,11 +228,11 @@ const projects = [
       "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
     tags: [
       {
-        name: "react",
+        name: "Wordpress",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "PHP",
         color: "green-text-gradient",
       },
       {
@@ -247,11 +249,11 @@ const projects = [
       "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
     tags: [
       {
-        name: "nextjs",
+        name: "Shopify",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "liquify",
         color: "green-text-gradient",
       },
       {
