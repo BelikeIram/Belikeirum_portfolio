@@ -7,6 +7,10 @@ import github from "./github.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
 import I from './I.png'
+import True from './true.png'
+import Movix from './movix.png'
+import Dash from './dash.png'
+import Share from './share.png'
 
 import css from "./tech/css.png";
 import docker from "./tech/docker.png";
@@ -68,5 +72,9 @@ export {
   YashLogo,
   NodeJS,
   Wordpress,
-  PHP
+  PHP,
+  True,
+  Movix,
+  Dash,
+  Share
 };

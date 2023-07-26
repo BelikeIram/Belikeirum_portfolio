@@ -10,23 +10,15 @@ import {
   reactjs,
   redux,
   tailwind,
-  nodejs,
-  mongodb,
   git,
   figma,
-  docker,
-  meta,
-  starbucks,
-  YashLogo,
-  tesla,
-  shopify,
-  carrent,
+  True,
   jobit,
-  tripguide,
   threejs,
-  NodeJS,
-  Wordpress,
-  PHP,
+  Dash,
+  Movix,
+  Share
+
 } from "../assets";
 
 export const navLinks = [
@@ -46,20 +38,16 @@ export const navLinks = [
 
 const services = [
   {
-    title: "React Developer",
+    title: "JavaScript Developer",
     icon: web,
   },
   {
-    title: "Wordpress Developer",
+    title: "ReactJS Developer",
     icon: mobile,
   },
   {
-    title: "Shopify Developer",
+    title: "Redux Toolkit",
     icon: backend,
-  },
-  {
-    title: "PHP Developer",
-    icon: creator,
   },
 ];
 
@@ -104,68 +92,17 @@ const technologies = [
     name: "figma",
     icon: figma,
   },
-  {
-    name: "docker",
-    icon: docker,
-  },
-  {
-    name:'PHP',
-    icon: PHP
-  },
-  {
-    name:'shopify',
-    icon: shopify
-  }
 ];
 
 const experiences = [
   {
     title: "React.js Developer",
-    company_name: "Yash Techs",
-    icon: YashLogo,
+    company_name: "Truthics Solutions",
+    icon: True,
     iconBg: "#383E56",
     date: "March 2020 - April 2021",
     points: [
       "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "PHP Full stack developer",
-    company_name: "Yash Techs",
-    icon: YashLogo,
-    iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
-    points: [
-      "Developing and maintaining web applications using Wordpress + PHP and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "shopify Developer",
-    company_name: "Okoders",
-    icon: shopify,
-    iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
-    points: [
-      "Developing and maintaining web applications using Shopify + liquify.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Wordpress",
-    company_name: "Okoders",
-    icon:Wordpress,
-    iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
-    points: [
-      "Developing and maintaining web applications using Wordpress + PHP and other related technologies.",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
       "Implementing responsive design and ensuring cross-browser compatibility.",
       "Participating in code reviews and providing constructive feedback to other developers.",
@@ -176,35 +113,25 @@ const experiences = [
 const testimonials = [
   {
     testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Shahnaaz proved me wrong.",
-    name: "Sara Lee",
-    designation: "CFO",
-    company: "Acme Co",
-    image: "https://randomuser.me/api/portraits/women/4.jpg",
+      "I thought it was impossible to make a website as beautiful as our product, but Iram proved me wrong.",
+    name: "Waqar Ahmed",
+    designation: "CEO",
+    company: "Truthics Solution",
   },
   {
     testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Shahnaaz does.",
+      "I've never met a web developer who truly cares about their clients' success like Iram does.",
     name: "Chris Brown",
     designation: "COO",
-    company: "DEF Corp",
-    image: "https://randomuser.me/api/portraits/men/5.jpg",
-  },
-  {
-    testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
-    designation: "CTO",
-    company: "456 Enterprises",
-    image: "https://randomuser.me/api/portraits/women/6.jpg",
+    company: "upler",
   },
 ];
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Movix",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "Web-based platform that allows users to search movies and tv shows, providing a convenient and amazing entertainment.",
     tags: [
       {
         name: "react",
@@ -215,54 +142,54 @@ const projects = [
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "SCSS",
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image:Movix,
+    source_code_link: "https://github.com/BelikeIram/Movix",
   },
   {
-    name: "Job IT",
+    name: "ReactJS Dashboard",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "Web application that enables users to search for different graphs, calender, tables and much more. A complete Dashboard",
     tags: [
       {
-        name: "Wordpress",
+        name: "ReactJS",
         color: "blue-text-gradient",
       },
       {
-        name: "PHP",
+        name: "Nivo",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "MUI",
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
+    image: Dash,
+    source_code_link: "https://github.com/BelikeIram/react-dashboard",
   },
   {
-    name: "Trip Guide",
+    name: "Search Everywhere",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "A photo sharing web application, where a user can upload, edit, remove photos from the gallery",
     tags: [
       {
-        name: "Shopify",
+        name: "ReactJS",
         color: "blue-text-gradient",
       },
       {
-        name: "liquify",
+        name: "ContextApi",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "Sanity",
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: Share,
+    source_code_link: "https://github.com/BelikeIram/Sanity.io-share-everywhere-app",
   },
 ];
 
